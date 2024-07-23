@@ -3,6 +3,8 @@
   import Scene from "$lib/components/scene.svelte";
 
   import Confetti from "$lib/components/confetti.svelte";
+  import Corner from "$lib/components/corner.svelte";
+  import Footer from "$lib/components/footer.svelte";
   import Javi from "$lib/components/javi.svelte";
   import Music from "$lib/components/music.svelte";
 </script>
@@ -14,5 +16,7 @@
 </main>
 
 <Confetti />
+<Corner />
+<Footer />
 <Javi />
 <Music />
