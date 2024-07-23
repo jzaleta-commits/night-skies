@@ -4,6 +4,7 @@
 
   import Confetti from "$lib/components/confetti.svelte";
   import Javi from "$lib/components/javi.svelte";
+  import Music from "$lib/components/music.svelte";
 </script>
 
 <main style:width="100vw" style:height="100vh">
@@ -14,3 +15,4 @@
 
 <Confetti />
 <Javi />
+<Music />
