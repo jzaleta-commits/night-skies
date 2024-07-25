@@ -1,5 +1,6 @@
 <script>
   // This is where the fun begins!
+  // Added a bunch of comments to this component because my JS skills are pretty rough
   import { onMount } from "svelte";
 
   const star = { size: 1.5, speed: 2, tail: 100 }; // Shooting star properties

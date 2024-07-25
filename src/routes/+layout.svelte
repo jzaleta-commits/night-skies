@@ -7,6 +7,7 @@
   export let description =
     "Starry-sprinkled night skies with shooting stars and lofi beats";
   export let image = "https://github.com/jzaleta.png";
+  export let url = "https://night-skies.vercel.app";
 
   $: fullTitle = `${name} | ${title}`;
 </script>
@@ -23,6 +24,7 @@
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:image" content={image} />
+  <meta property="og:url" content={url} />
 
   <!-- X/Twitter Meta Tags -->
   <meta name="twitter:card" content="summary" />
